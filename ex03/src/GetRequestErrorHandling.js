@@ -31,4 +31,5 @@ class GetRequestErrorHandling extends React.Component {
         );
     }
 }
+console.log(Component);
 export default GetRequestErrorHandling;
