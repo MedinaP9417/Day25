@@ -1,0 +1,24 @@
+{
+  "name": "day25",
+  "version": "1.0.0",
+  "description": "Assignment for Day25",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedinaP9417/Day25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedinaP9417/Day25/issues"
+  },
+  "homepage": "https://github.com/MedinaP9417/Day25#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
