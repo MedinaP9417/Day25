@@ -1,6 +1,4 @@
-
 import React, { Component } from 'react';
-
 class GetRequestErrorHandling extends React.Component {
     constructor(props) {
         super(props);
@@ -21,8 +19,7 @@ class GetRequestErrorHandling extends React.Component {
                .catch(error => {     
                 this.setState({ errorMessage: error.toString() });
                 console.error('There was an error!', error);
-            });
-           
+            });  
     }
     render() {
         const { errorMessage } = this.state;
@@ -34,5 +31,4 @@ class GetRequestErrorHandling extends React.Component {
         );
     }
 }
-
 export default GetRequestErrorHandling;

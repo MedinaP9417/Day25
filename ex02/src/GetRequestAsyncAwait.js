@@ -7,6 +7,9 @@ class GetRequestAsyncAwait extends React.Component {
         };
     }
     componentDidMount() {
+        // const response = await fetch('https://api.npms.io/v2/search?q=react');
+        // const data = await response.json();
+        // this.setState({ totalPackages: data.total });
         fetch('https://api.npms.io/v2/search?q=react')
         .then(response => response.json())
         .then(data => this.setState({ totalReactPackages: data.total }));
