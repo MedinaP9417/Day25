@@ -27,5 +27,5 @@ class PostRequest extends React.Component {
         );
     }
 }
-console.log(Component);
+
 export default PostRequest;

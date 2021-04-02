@@ -23,5 +23,5 @@ class GetRequestSetHeaders extends React.Component {
         );
     }
 }
-console.log(Component);
+
 export default GetRequestSetHeaders;

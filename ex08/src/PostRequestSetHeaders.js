@@ -31,5 +31,5 @@ class PostRequestSetHeaders extends React.Component {
         );
     }
 }
-console.log(Component);
+
 export default PostRequestSetHeaders;

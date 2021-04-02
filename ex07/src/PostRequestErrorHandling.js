@@ -44,5 +44,5 @@ class PostRequestErrorHandling extends React.Component {
         );
     }
 }
-console.log(Component);
+
 export default PostRequestErrorHandling;

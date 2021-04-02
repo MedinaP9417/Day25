@@ -27,5 +27,5 @@ class PostRequestAsyncAwait extends React.Component {
         );
     }
 }
-console.log(Component);
+
 export default PostRequestAsyncAwait;

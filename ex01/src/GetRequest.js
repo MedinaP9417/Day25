@@ -22,5 +22,5 @@ class GetRequest extends React.Component {
         )
     }
 }
-console.log(Component);
+
 export default GetRequest;
